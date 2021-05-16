@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>LLRB D3</title>
+
+    <style>
+        svg {
+            width: 100%;
+            height: 100%;
+            font-family: monospace;
+            user-select: none;
+        }
+
+        #ui {
+            position: absolute;
+        }
+
+        #ops {
+            color: white;
+        }
+
+        html {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+<div id="ui">
+    <button id="add">Add</button>
+    <button id="start">Start</button>
+    <button id="rotleft">Rotate left</button>
+    <button id="rotright">Rotate right</button>
+    <button id="newbst">New BST</button>
+    <button id="newllrb">New LLRB</button>
+    <pre id="ops"></pre>
+</div>
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="bst.js"></script>
+<script src="llrb.js"></script>
+<script src="trees.js"></script>
+
+</body>
+</html>
